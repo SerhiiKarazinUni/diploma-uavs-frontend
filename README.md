@@ -2,6 +2,8 @@
 
 # Prefix tree based searchable encryption (front-end)
 
+> There is also a related project [here](https://github.com/SerhiiKarazinUni/diploma-phones-frontend), which is easier to understand
+
 This is Vue 3 front-end implementation for [the backend](https://github.com/SerhiiKarazinUni/diploma-uavs-backend).
 
 This project is deployed at `https://se-uavs.lilikovych.name/`.
@@ -14,9 +16,9 @@ This project is deployed at `https://se-uavs.lilikovych.name/`.
 * `npm run dev`
 * Navigate to `http://localhost:3000/`
 
-## Points on interest
+## Points of interest
 
-This part of the project performs encryption\decryption of documents (in this case by documents we mean points on the map), and prefix path preparation for search queries and for insertion operations. These operations are implemented in `src/service/api.js`:
+This part of the project performs encryption/decryption of documents (in this case by documents we mean points on the map), and prefix path preparation for search queries and for insertion operations. These operations are implemented in `src/service/api.js`:
 
 * `latlon_to_path` converts latitude/longitude to a valid prefix tree
 * `search` prepares and makes search queries to the backend. It also decrypts retrieved objects (if any)
