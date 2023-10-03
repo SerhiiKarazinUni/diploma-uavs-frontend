@@ -1,3 +1,5 @@
+![screenshot](https://github.com/SerhiiKarazinUni/diploma-uavs-frontend/blob/main/screenshot.png?raw=true)
+
 # Prefix tree based searchable encryption (front-end)
 
 This is Vue 3 front-end implementation for [the backend](https://github.com/SerhiiKarazinUni/diploma-uavs-backend).
